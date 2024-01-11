@@ -7,7 +7,7 @@ import{ AiFillGithub} from 'react-icons/ai'
 import { TiWorld } from 'react-icons/ti'
 export default function Portfolio() {
   const handleImageClick = (url) => {
-    window.open(url, "_blank");
+   
 
   };
   
@@ -51,7 +51,7 @@ export default function Portfolio() {
             <motion.img
             variants={fadeIn("up", "tween", 0.5, 0.6)}
             onClick={() =>
-              handleImageClick("https://dev-003-burger-queen-api-client-o7uo5f1jy-ysisc.vercel.app/login/")
+              handleImageClick()
             }
             src="./Cursos.png"
             alt="project"
@@ -69,7 +69,7 @@ export default function Portfolio() {
             <motion.img
             variants={fadeIn("up", "tween", 0.7, 0.6)}
             onClick={() =>
-              handleImageClick("https://foodgram-social-network.netlify.app/")
+              handleImageClick()
             }
             src="./Facturacion.png"
             alt="foodgram project"
@@ -88,7 +88,7 @@ export default function Portfolio() {
             <motion.img
             variants={fadeIn("up", "tween", 0.9, 0.6)}
             onClick={() =>
-              handleImageClick("https://www.npmjs.com/package/ysisc-md-links")
+              handleImageClick()
             }
             src="./Gestin.png"
             alt="md links project"
@@ -106,7 +106,7 @@ export default function Portfolio() {
             <motion.img
             variants={fadeIn("up", "tween", 0.9, 0.6)}
             onClick={() =>
-              handleImageClick("https://dev-003-notes.vercel.app/")
+              handleImageClick()
             }
             src="./Reposicion.png"
             alt="Lab note project"
@@ -125,7 +125,7 @@ export default function Portfolio() {
             <motion.img
             variants={fadeIn("up", "tween", 0.9, 0.6)}
             onClick={() =>
-              handleImageClick("https://calculadora-redux-ysisc.vercel.app/")
+              handleImageClick()
             }
             src="./Taxi.png"
             alt="calculator project"
