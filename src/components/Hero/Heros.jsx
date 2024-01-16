@@ -57,7 +57,7 @@ const Heros = () => {
                         </div>
                         <div className={`${css.icon}`}>
                             <a href="https://github.com/Mariela02"><AiFillGithub size={30} /> </a>
-                            <a href="https://www.linkedin.com/in/mariela-amanta-7a74432a9/"><AiFillLinkedin size={30} /> </a>
+                            <a href="https://www.linkedin.com/in/mariela-amanta/"><AiFillLinkedin size={30} /> </a>
                             
 
                         </div>
