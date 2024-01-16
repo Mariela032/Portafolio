@@ -26,7 +26,7 @@ export default function Portfolio() {
             <span className="primaryText">Mis Proyectos Anteriores</span>
             <p style={{ marginTop: "10px" }}>Soluciones Informaticas</p>
           </div>
-          <a href="https://github.com/Mariela02?tab=repositories" target="_blank">
+          <a href="https://github.com/Mariela02" target="_blank">
             <span className="secondaryText">Más Información... </span>
           </a>
         </div>
